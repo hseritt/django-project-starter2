@@ -15,19 +15,19 @@ The goal is to include:
 Steps:
 
 1. Clone the project in a directory of your choice:
-  ```bash
+  ```
   git clone git@github.com:hseritt/django-project-starter2.git
   ```
 
 2. Check the runtime.txt file. For example, if it's python-3.10.2, then you should install Python 3.10.2 (though it should work mostly with any Python 3.8+ interpreter). I prefer to use "pyenv" to install different versions of Python for my local projects but use any method you prefer.
 
 3. Build a virtual environment. I prefer to use "pyenv virtualenv [env.name]" but use any method you prefer.
-  ```bash
+  ```
   pyenv virtualenv django-project-starter2
   pyenv local django-project-starter2
   ```
 
 4. Install the packages in the requirements.txt file:
-  ```bash
+  ```
   pip install -r requirements.txt
   ```
