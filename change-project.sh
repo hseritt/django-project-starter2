@@ -28,6 +28,7 @@ find . -type f -exec sed -i.${BACKUP_NAME} "s/django_starter/${PROJECT_NAME}/g" 
 find . -print | egrep .${BACKUP_NAME}$ | xargs rm -rfv
 
 mv django_starter ${PROJECT_NAME}
+mv ${PROJECT_NAME}/django_starter ${PROJECT_NAME}/${PROJECT_NAME}
 
 rm -rf .git
 echo "You have a new project. The .git folder has been removed. Create a new one with: git init"
