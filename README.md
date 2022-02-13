@@ -4,13 +4,13 @@
 
 A rewrite of my original Django starter project.
 
-The goal is to include:
+The goal goal of this project is to provide:
 
-* A Django project with usable configurations and folder structure
-* Rest Framework configured for example app (has a simple Event model)
-* Authentication ready to go (has a login page with standard authentication functionality)
-* Cors ready for frontend UI (you should be able to use Vue, React or Angular)
-* Ability to change project name to project name of your choice
+* A Django project with usable configurations and folder structure.
+* Rest Framework configured for example app (has a simple Event model).
+* Authentication ready to go (has a login page with standard authentication functionality).
+* Cors ready for frontend UI (you should be able to use Vue, React or Angular project with the Rest API).
+* Ability to change the project name to a name of your choice.
 
 ## How to develop
 
