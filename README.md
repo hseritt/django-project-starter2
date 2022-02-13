@@ -31,3 +31,40 @@ Steps:
   ```
   pip install -r requirements.txt
   ```
+
+## How to Use
+
+Steps:
+
+1. Clone the project in a directory of your choice:
+  ```
+  git clone git@github.com:hseritt/django-project-starter2.git
+  ```
+
+2. Go into the directory created:
+  ```
+  cd django-project-starter2
+  ```
+
+3. Make change-project.sh executable:
+  ```
+  chmod +x change-project.sh
+  ```
+
+4. Run change-project.sh with new project name:
+  ```
+  ./change-project.sh [ new_project_name ]
+  
+  # note that the project name needs to conform to Django project naming conventions
+  ```
+
+5. (Optional) Run migrations and create an admin superuser if you like:
+  ```
+  ./manage.py makemigrations
+  ./manage.py migrate
+  ./manage.py createsuperuser
+  ./manage.py runserver
+  ```
+
+6. Go http://localhost:8000/example for the example app (it doesn't do anything really). To check out the Rest API, go to http://localhost:8000/api.
+   
