@@ -8,4 +8,5 @@ The goal is to include:
 * Rest Framework configured for example app
 * Authentication ready to go
 * Cors ready for frontend UI
+* Ability to change project name to project name of your choice
 
