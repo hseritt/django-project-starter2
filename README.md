@@ -1,5 +1,7 @@
 # Django Project Starter 2
 
+## What is going on here?
+
 A rewrite of my original Django starter project.
 
 The goal is to include:
@@ -10,7 +12,9 @@ The goal is to include:
 * Cors ready for frontend UI (you should be able to use Vue, React or Angular)
 * Ability to change project name to project name of your choice
 
-## How to Develop
+## How to develop
+
+Feel free to fork this project and then follow these steps to get it running.
 
 Steps:
 
@@ -32,7 +36,7 @@ Steps:
   pip install -r requirements.txt
   ```
 
-## How to Use
+## How to use
 
 Steps:
 
