@@ -7,4 +7,5 @@ The goal is to include:
 * A Django project with usable skeleton
 * Rest Framework configured for example app
 * Authentication ready to go
+* Cors ready for frontend UI
 
